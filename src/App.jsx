@@ -68,9 +68,35 @@
 
 //!08-11-24
 //!Inline CSS
-import InlineCss from "./AddingStyles/InlineCSS"
+// import InlineCss from "./AddingStyles/InlineCSS"
 
-let App = ()=>{
-    return <InlineCss></InlineCss>
+// let App = ()=>{
+//     return <InlineCss></InlineCss>
+// }
+// export default App
+
+//!09-11-24
+//!GLOBAL CSS
+// import React from "react";
+// import GlobalCss from "./AddingStyles/GlobalCss";
+// import "./Global.css"
+
+// let App = ()=>{
+//     return <GlobalCss/>
+// }
+// export default App
+
+//!MODULE CSS
+
+import React from 'react'
+import Main from "../src/AddingStyles/Module/Main.jsx"
+
+const App = () => {
+  return (
+    <>
+        <Main></Main>
+    </>
+  )
 }
+
 export default App
