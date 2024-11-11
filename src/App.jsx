@@ -88,15 +88,29 @@
 
 //!MODULE CSS
 
-import React from 'react'
-import Main from "../src/AddingStyles/Module/Main.jsx"
+// import React from 'react'
+// import Main from "../src/AddingStyles/Module/Main.jsx"
 
-const App = () => {
+// const App = () => {
+//   return (
+//     <>
+//         <Main></Main>
+//     </>
+//   )
+// }
+
+// export default App
+
+//!11/11/24
+//!Form Handling - Uncontrolled Way -- DOM
+import React from 'react'
+import UncontrolledWay from './FormHandling/UncontrolledWay'
+
+let App = () => {
   return (
-    <>
-        <Main></Main>
-    </>
+      <UncontrolledWay/>
   )
 }
 
 export default App
+
