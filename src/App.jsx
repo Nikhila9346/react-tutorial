@@ -103,14 +103,40 @@
 
 //!11/11/24
 //!Form Handling - Uncontrolled Way -- DOM
-import React from 'react'
-import UncontrolledWay from './FormHandling/UncontrolledWay'
+// import React from 'react'
+// import UncontrolledWay from './FormHandling/UncontrolledWay'
 
-let App = () => {
-  return (
-      <UncontrolledWay/>
-  )
+// let App = () => {
+//   return (
+//       <UncontrolledWay/>
+//   )
+// }
+
+// export default App
+
+//!12/11/24
+//!Form Handling - Controlled Way
+// import React from 'react'
+// import ControlledWay from './FormHandling/ControlledWay'
+
+// const App = () => {
+//   return <ControlledWay></ControlledWay>
+// }
+
+// export default App
+
+//!18/11/24
+//!LIFECYCLE METHOD
+import React from 'react'
+import LifeCycle from './LifeCycle/LifeCycle'
+
+const App = () => {
+  return <>
+  <LifeCycle/>
+  </>
 }
 
 export default App
+
+
 

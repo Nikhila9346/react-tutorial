@@ -35,9 +35,15 @@ let UncontrolledWay = () => {
     let passwordRef = useRef()
     let validation = (e)=>{
         e.preventDefault()
+        //!Accessing the values
         console.log(nameRef.current.value)
         console.log(emailRef.current.value)
         console.log(passwordRef.current.value)
+        //!Styles
+        emailRef.current.style.color = "white"
+        emailRef.current.style.backgroundColor = "black"
+        //!Focus()
+        nameRef.current.focus()
     }
   return (
     <form onSubmit={validation}>
